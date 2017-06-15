@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:text="Atrás"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:onClick="atras" />
+
+    <TextView
+        android:text="Hijos Registrados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ttTitulo"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et1"
+        android:hint="Codigo Madre/Padre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et2"
+        android:layout_below="@+id/et1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:hint="Nombre y Apellido Hijo/a" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et3"
+        android:layout_below="@+id/et2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:hint="Vacunas Aplicadss" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et4"
+        android:layout_below="@+id/et2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:hint="Vacunas en Falta" />
+
+    <Button
+        android:text="Consulta por Madre_Padre"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/alta"
+        android:layout_centerHorizontal="true"
+        android:onClick="consulta"
+        android:layout_weight="0.15" />
+
+    <Button
+        android:id="@+id/alta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_below="@+id/et3"
+        android:layout_marginTop="21dp"
+        android:layout_weight="0.06"
+        android:text="Agregar Datos" />
+
+</LinearLayout>

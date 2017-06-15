@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PediApp</string>
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="correotitle">Correo: %s</string>
+    <string name="loading">Loading…</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Desconectado</string>
+    <string name="signed_in_fmt">Conectado a: %s</string>
+    <string name="espacio"> </string>
+    <string name="sign_out">Siguiente</string>
+
+</resources>

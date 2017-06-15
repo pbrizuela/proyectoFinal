@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "950799633694",
+    "project_id": "pediapp-160514"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950799633694:android:94df173942ad37ea",
+        "android_client_info": {
+          "package_name": "com.pediapp.proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950799633694-8iuejj21j856fho4pcd0276br5jegukk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "950799633694-gaiuh1minrpk5etjdo91l6124skdoe1v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pediapp.proyecto",
+            "certificate_hash": "9a3b3c522d1592753ee07bbf9f0a7f605640bf5f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClpVPji7lR-6hcNVKohV6BFQEV8OlMXVY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
